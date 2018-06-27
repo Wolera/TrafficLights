@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #1057#1074#1077#1090#1086#1092#1086#1088
+  ClientHeight = 305
+  ClientWidth = 469
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 272
+    Top = 25
+    Width = 95
+    Height = 25
+    Caption = #1057#1074#1077#1090#1086#1092#1086#1088
+    Color = clHotLight
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+  end
+  object GroupBox1: TGroupBox
+    Left = 32
+    Top = 64
+    Width = 153
+    Height = 105
+    Caption = #1062#1074#1077#1090
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object RadioButton1: TRadioButton
+      Left = 24
+      Top = 24
+      Width = 113
+      Height = 17
+      Caption = #1050#1088#1072#1089#1085#1099#1081
+      TabOrder = 0
+      OnClick = RadioButton1Click
+    end
+    object RadioButton2: TRadioButton
+      Left = 24
+      Top = 47
+      Width = 113
+      Height = 17
+      Caption = #1046#1077#1083#1090#1099#1081
+      TabOrder = 1
+      OnClick = RadioButton2Click
+    end
+    object RadioButton3: TRadioButton
+      Left = 24
+      Top = 70
+      Width = 113
+      Height = 17
+      Caption = #1047#1077#1083#1077#1085#1099#1081
+      TabOrder = 2
+      OnClick = RadioButton3Click
+    end
+  end
+  object Panel1: TPanel
+    Left = 247
+    Top = 56
+    Width = 154
+    Height = 36
+    TabOrder = 1
+  end
+  object Panel2: TPanel
+    Left = 248
+    Top = 98
+    Width = 153
+    Height = 33
+    TabOrder = 2
+  end
+  object Panel3: TPanel
+    Left = 247
+    Top = 137
+    Width = 153
+    Height = 33
+    TabOrder = 3
+  end
+end
